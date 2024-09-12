@@ -11,7 +11,7 @@ name: Build
 jobs:
   build:
     name: Build
-    runs-on: ubicloud
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
